@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import {pageFrame} from './myComponents/pageFrame'
 import './App.css';
 
 function App() {
