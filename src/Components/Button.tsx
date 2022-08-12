@@ -1,6 +1,7 @@
-import { Button as BootButton } from "react-bootstrap";
+import { Button as BootButton } from "react-bootstrap"; // error 'cannot find'
+// i like what u did to call it a bootbutton, to differentiate it
 
-interface ButtonProps {
+interface ButtonProps { // why not just exclude this and say Button = ({ text }: string) => etc
   text: string;
 }
 const Button = ({ text }: ButtonProps) => {
