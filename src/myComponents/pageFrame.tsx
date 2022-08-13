@@ -4,10 +4,10 @@ interface PageProps {
     child: React.ReactNode;
 }
 
-export const PageFrame = (children: PageProps) => {
+export const PageFrame = ( {child}: PageProps) => {
     return (
         <body>
-            {children}
+            {child}
         </body>
-    ) // what am I doing wrong?
+    ) // fixed it
 };
