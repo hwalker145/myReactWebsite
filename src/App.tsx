@@ -1,6 +1,6 @@
 //<<<<<<< HEAD
 import logo from './logo.svg';
-import {pageFrame} from './myComponents/pageFrame'
+import {pageFrame} from './myComponents/PageFrame'
 import './App.css';
 //=======
 import React from "react";

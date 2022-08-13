@@ -1,9 +1,13 @@
 import React from 'react';
 
-export const pageFrame = () => {
+interface PageProps {
+    child: React.ReactNode;
+}
+
+export const PageFrame = (children: PageProps) => {
     return (
         <body>
-            hello world
+            {children}
         </body>
-    )
+    ) // what am I doing wrong?
 };
