@@ -10,6 +10,6 @@ const Home = () => {
         <Button text="I do nothing" />
       </header>
     </Layout>
-  );
+  )
 };
 export default Home;

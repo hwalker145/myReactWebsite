@@ -1,13 +1,21 @@
 import React from 'react';
 
 interface PageProps {
-    child: React.ReactNode;
+    child: React.ReactElement;
+    id: string;
 }
 
-export const PageFrame = ( {child}: PageProps) => {
+const PageFrame = ( {child, id}: PageProps) => {
     return (
-        <body>
-            {child}
-        </body>
-    ) // fixed it
+        {child, id}
+    )
 };
+export default PageFrame;
+
+/**
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
