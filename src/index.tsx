@@ -21,6 +21,7 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
+// HENRY W: 2pm
 // need an explanation for line 9.
 // why is the url path just '/'???? How does that make sense
 // everything else is understandable and really cool.
