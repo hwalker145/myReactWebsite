@@ -8,7 +8,7 @@ const Layout = ({
   return (
     <>
       <h1>{title}</h1>
-      <main>{children}</main>;
+      <main>{children}</main>
     </>
   );
 };

@@ -10,6 +10,7 @@ const Home = () => {
         <img src={logo} className="App-logo" alt="logo" />
         <Button text="I do nothing" />
       </header>
+      <Background/>
     </Layout>
   );
 };
