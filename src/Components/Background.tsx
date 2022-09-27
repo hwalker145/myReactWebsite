@@ -1,8 +1,6 @@
 const Background = () => {
     let currentTime = new Date()
-    let hrs = currentTime.getHours()
-
-    
+    let hrs = currentTime.getHours()    
 
     let time = hrs >= 20 || hrs <= 4 ? 'night' : 
                (hrs >= 12 ? 'afternoon' : 'morning')
@@ -14,9 +12,11 @@ const Background = () => {
     return (
         <>
             <h1>Time? {time}.</h1>
-            <img src="" alt="" />
+            <div>
+                <img src="media\backgrounds\horserunning.jpg" alt="Hi"/>
+            </div>
         </>
     )
 }
 
-export default Background
+export default Background;
