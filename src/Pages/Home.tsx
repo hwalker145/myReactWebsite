@@ -17,4 +17,4 @@ const Home = () => {
 export default Home;
 
 // is everything on lines 9-12 being passed into 
-// the Layout constructor as children?
+// the Layout constructor as children? 
