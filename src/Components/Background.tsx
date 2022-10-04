@@ -1,3 +1,6 @@
+import horse from "../media/backgrounds/horserunning.jpg"
+import "./Background.css"
+
 const Background = () => {
     let currentTime = new Date()
     let hrs = currentTime.getHours()    
@@ -12,8 +15,8 @@ const Background = () => {
     return (
         <>
             <h1>Time? {time}.</h1>
-            <div>
-                <img src="media\backgrounds\horserunning.jpg" alt="Hi"/>
+            <div className="BGImage">
+                <img src={horse} alt="hello"/>
             </div>
         </>
     )
