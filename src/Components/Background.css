@@ -1,4 +1,10 @@
 .BGImage {
     max-height: 100vh;
     min-height: 50vh;
+    width: 100%;
+}
+
+div {
+    display: flex;
+    flex: auto;
 }
