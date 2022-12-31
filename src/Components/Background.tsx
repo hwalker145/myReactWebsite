@@ -14,8 +14,8 @@ const Background = () => {
     
     return (
         <>
-            <h1>Time? {time}.</h1>
-            <div className='BGImage'>
+            <div className="topBar">Running Universe</div>
+            <div className="BGImage">
                 <img src={horse} alt="hello"/>
             </div>
         </>
