@@ -1,22 +1,21 @@
 import horse from "../media/backgrounds/horserunning.jpg"
-import "./Background.css"
+import "./Styles.css"
 
 const Background = () => {
     let currentTime = new Date()
-    let hrs = currentTime.getHours()    
+    let hrs = currentTime.getHours()
 
-    let time = hrs >= 20 || hrs <= 4 ? 'night' : 
-               (hrs >= 12 ? 'afternoon' : 'morning')
+    let time = hrs >= 20 || hrs <= 4 ? 'night' :
+        (hrs >= 12 ? 'afternoon' : 'morning')
 
     // for later use 
     // let filenum: number
     // let rand = Math.floor(Math.random() * filenum)
-    
+
     return (
         <>
-            <div className="topBar">Running Universe</div>
             <div className="BGImage">
-                <img src={horse} alt="hello"/>
+                <img src={horse} alt="hello" />
             </div>
         </>
     )

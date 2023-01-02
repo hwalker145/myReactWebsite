@@ -1,3 +1,7 @@
+.Foreground {
+    position: fixed;
+}
+
 .BGImage {
     display: flex;
     flex-direction: column;

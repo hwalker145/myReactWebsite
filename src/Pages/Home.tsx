@@ -5,7 +5,7 @@ import Background from "../Components/Background";
 const Home = () => {
   return (
     <Layout>
-      <Background/>
+      <Background />
     </Layout>
   );
 };
