@@ -1,6 +1,6 @@
 import { FC } from "react"
 
-const Foreground:FC<any> = (
+const Foreground: FC<any> = (
 
 ) => {
     return (

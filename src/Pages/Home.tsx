@@ -1,12 +1,8 @@
-import Button from "../Components/Button";
-import Layout from "../Components/Layout";
-import Background from "../Components/Background";
-
 const Home = () => {
-  return (
-    <Layout>
-      <Background />
-    </Layout>
-  );
+    return (
+        <>
+
+        </>
+    );
 };
 export default Home;
