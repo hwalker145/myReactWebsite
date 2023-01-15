@@ -1,3 +1,4 @@
+import React from "react";
 import { Image as BootImage } from "react-bootstrap";
 
 interface ImageProps {
@@ -6,10 +7,10 @@ interface ImageProps {
     width?: number
 }
 
-const Image = ({ filelink }: ImageProps, { height }: ImageProps, { width }: ImageProps) => {
-    return <BootImage src={filelink}
-        height={height}
-        width={width}></BootImage>
+const Image: React.FC<ImageProps> = (props) => {
+    return <BootImage src={props.filelink}
+        height={props.height}
+        width={props.width}></BootImage>
 }
 
 export default Image
