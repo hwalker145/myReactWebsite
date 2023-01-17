@@ -5,6 +5,7 @@
 .BGImage {
     display: flex;
     flex-direction: column;
+    width: 100%;
     max-height: 100vh;
     min-height: 50vh;
 }
