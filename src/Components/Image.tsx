@@ -14,9 +14,7 @@ const Image = (props: ImageProps) => {
         alt={props.alttext}
         className={props.classdata}
         height={props.height}
-        width={props.width} 
-        
-        />
+        width={props.width}/>
 }
 
 export default Image
