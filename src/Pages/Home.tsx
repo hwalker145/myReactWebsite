@@ -1,15 +1,16 @@
 import Image from "../Components/Image"
-import "../media/backgrounds/horserunning.jpg"
 import "../Components/CompStyles.css"
+import horse from "../media/backgrounds/horserunning.jpg"
+
 
 const Home = () => {
 
     const pickHomeImg = () => {
-        return '../media/backgrounds/horserunning.jpg'
+        return "horserunning.jpg"
     }
 
     return (
-        <Image filelink={ pickHomeImg() } classdata="BGImage" alttext="Image"/>
+        <Image filelink={ horse } classdata="BGImage" alttext="Image"/>
     );
 };
 export default Home;
