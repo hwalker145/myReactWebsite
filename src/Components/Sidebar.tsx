@@ -1,9 +1,23 @@
+import {Card, CardProps} from "./Card"
 import React from "react"
+import "./CompStyles.css"
 
-const SideBar = () => {
+interface SidebarProps {
+    data: CardProps[]
+}
+
+const Sidebar = (props: SidebarProps) => {
+
     return (
         <>
-            <div style={{ backgroundColor: "green"}}></div>
+            <div className="sidebar">
+                {props.data.map(
+                    (card, index) => (
+                    <Card key={index} title={card.title}/>
+                ))}
+            </div>
         </>
     )
 }
+
+export default Sidebar

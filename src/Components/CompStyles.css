@@ -1,15 +1,17 @@
-.Foreground {
+.foreground {
     position: fixed;
 }
 
-.BGImage {
+.backgroundimage {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    min-width: 100vw;
     min-height: 100%;
+
+    z-index: -1000;
 }
 
-.topBar {
+.topbar {
     display: flex;
     flex-direction: column;
     padding-top: 5vh;
@@ -17,4 +19,16 @@
     min-height: 10vh;
     max-height: 20vh;
     font-size: xx-large;
+}
+
+.sidebar {
+    position: fixed;
+    top: 10vh;
+    bottom: 10vh;
+    right: 90vw;
+    left: 0;
+}
+
+.card {
+    position: inherit;
 }
