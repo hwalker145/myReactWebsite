@@ -22,6 +22,9 @@
 .sidebar {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+
+    min-width: none;
 
     position: fixed;
     top: 10vh;
@@ -37,7 +40,15 @@
 .card {
     background-color: blueviolet;
 
-    
+    position: relative;
+
+    width: 90%;
+    left: 5%;
+    right: 5%;
+
+    margin-top: 5%;
+
+    height: 10%;
 
     z-index: 1;
 }
