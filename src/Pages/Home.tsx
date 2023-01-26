@@ -1,4 +1,5 @@
 import Image from "../Components/Image"
+import Card from "../Components/Card"
 import Sidebar from "../Components/Sidebar"
 import "../Components/CompStyles.css"
 import bgimg from "../media/backgrounds/horserunning.jpg"
@@ -12,7 +13,12 @@ const Home = () => {
     return (
         <>
             <Image filelink={pickHomeImg()} classdata="backgroundimage" alttext="Image"/>
-            <Sidebar/>
+            <Sidebar>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+            </Sidebar>
         </>
     );
 };

@@ -1,4 +1,5 @@
 import Image from "./Image"
+import "./CompStyles.css"
 import React from "react"
 
 interface CardProps {
@@ -9,8 +10,10 @@ interface CardProps {
 }
 
 const Card = (props: CardProps) => {
-    return (<></>)
+    return (<div className="card">
+        {props.icon}
+        {props.title}
+    </div>)
 };
 
-export type {CardProps};
-export {Card};
+export default Card;

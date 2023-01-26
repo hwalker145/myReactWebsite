@@ -1,22 +1,18 @@
-import {Card, CardProps} from "./Card"
-import React from "react"
+import Card from "./Card"
+import React, { CSSProperties } from "react"
 import "./CompStyles.css"
 
 interface SidebarProps {
-    data: CardProps[]
+    children: React.ReactNode;
+    styling?: CSSProperties;
 }
 
 const Sidebar = (props: SidebarProps) => {
 
     return (
-        <>
-            <div className="sidebar">
-                {props.data.map(
-                    (card, index) => (
-                    <Card key={index} title={card.title}/>
-                ))}
-            </div>
-        </>
+        <div className="sidebar" style={props.styling}>
+            {props.children}
+        </div>
     )
 }
 

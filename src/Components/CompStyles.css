@@ -3,8 +3,6 @@
 }
 
 .backgroundimage {
-    display: flex;
-    flex-direction: column;
     min-width: 100vw;
     min-height: 100%;
 
@@ -22,13 +20,24 @@
 }
 
 .sidebar {
+    display: flex;
+    flex-direction: column;
+
     position: fixed;
     top: 10vh;
     bottom: 10vh;
-    right: 90vw;
+    right: 90%;
     left: 0;
+
+    background-color: green;
+
+    z-index: 0;
 }
 
 .card {
-    position: inherit;
+    background-color: blueviolet;
+
+    
+
+    z-index: 1;
 }
