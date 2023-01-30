@@ -4,9 +4,7 @@
 
 .backgroundimage {
     min-width: 100vw;
-    min-height: 100%;
-
-    z-index: -1000;
+    min-height: 100vh;
 }
 
 .topbar {
@@ -24,7 +22,7 @@
     flex-direction: column;
     justify-content: space-around;
 
-    min-width: none;
+    min-width: 100px;
 
     position: fixed;
     top: 10vh;

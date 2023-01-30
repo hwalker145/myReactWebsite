@@ -6,7 +6,7 @@ import bgimg from "../media/backgrounds/horserunning.jpg"
 
 const Home = () => {
 
-    const pickHomeImg = (): string => {
+    const pickHomeImg = () => {
         return bgimg
     }
 
