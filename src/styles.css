@@ -1,52 +1,52 @@
 .foreground {
-    position: fixed;
+  position: fixed;
 }
 
 .backgroundimage {
-    min-width: 100vw;
-    min-height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 .topbar {
-    display: flex;
-    flex-direction: column;
-    padding-top: 5vh;
-    align-items: center;
-    min-height: 10vh;
-    max-height: 20vh;
-    font-size: xx-large;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5vh;
+  align-items: center;
+  min-height: 10vh;
+  max-height: 20vh;
+  font-size: xx-large;
 }
 
 .sidebar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
-    min-width: 100px;
+  min-width: 100px;
 
-    position: fixed;
-    top: 10vh;
-    bottom: 10vh;
-    right: 90%;
-    left: 0;
+  position: fixed;
+  top: 10vh;
+  bottom: 10vh;
+  right: 90%;
+  left: 0;
 
-    background-color: green;
+  background-color: green;
 
-    z-index: 0;
+  z-index: 0;
 }
 
 .card {
-    background-color: blueviolet;
+  background-color: blueviolet;
 
-    position: relative;
+  position: relative;
 
-    width: 90%;
-    left: 5%;
-    right: 5%;
+  width: 90%;
+  left: 5%;
+  right: 5%;
 
-    margin-top: 5%;
+  margin-top: 5%;
 
-    height: 10%;
+  height: 10%;
 
-    z-index: 1;
+  z-index: 1;
 }
